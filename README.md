@@ -9,7 +9,8 @@
    - Open « Remote Explorer »
    - Add SSH connection
 
-'''
+```
 ssh [your_api] ...
-'''
+```
+
    
