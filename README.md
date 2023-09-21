@@ -14,13 +14,13 @@
 ```
 sudo  chmod 400 x-hec-key-pair.pem
 ssh-add x-hec-key-pair.pem
-ssh -v -i x-hec-key-pair.pem ec2-user@{url-name}
+ssh -i x-hec-key-pair.pem ec2-user@{url-name}
 ```
 
-3. Fork & star this repository
+3. Create a git repo
 
    - Create a git account, star the repository
-   - Create a folder with your group name
+   - Create a repo for you group
   
 ```
 mkdir {group_name}
